@@ -1,18 +1,9 @@
- .S    S.     sSSs  S.      S.        sSSs_sSSs            sSSs   .S_sSSs     .S    sSSs   .S_sSSs     .S_sSSs    
-.SS    SS.   d%%SP  SS.     SS.      d%%SP~YS%%b          d%%SP  .SS~YS%%b   .SS   d%%SP  .SS~YS%%b   .SS~YS%%b   
-S%S    S%S  d%S'    S%S     S%S     d%S'     `S%b        d%S'    S%S   `S%b  S%S  d%S'    S%S   `S%b  S%S   `S%b  
-S%S    S%S  S%S     S%S     S%S     S%S       S%S        S%S     S%S    S%S  S%S  S%S     S%S    S%S  S%S    S%S  
-S%S SSSS%S  S&S     S&S     S&S     S&S       S&S        S&S     S%S    d*S  S&S  S&S     S%S    S&S  S%S    S&S  
-S&S  SSS&S  S&S_Ss  S&S     S&S     S&S       S&S        S&S_Ss  S&S   .S*S  S&S  S&S_Ss  S&S    S&S  S&S    S&S  
-S&S    S&S  S&S~SP  S&S     S&S     S&S       S&S        S&S~SP  S&S_sdSSS   S&S  S&S~SP  S&S    S&S  S&S    S&S  
-S&S    S&S  S&S     S&S     S&S     S&S       S&S        S&S     S&S~YSY%b   S&S  S&S     S&S    S&S  S&S    S&S  
-S*S    S*S  S*b     S*b     S*b     S*b       d*S        S*b     S*S   `S%b  S*S  S*b     S*S    S*S  S*S    d*S  
-S*S    S*S  S*S.    S*S.    S*S.    S*S.     .S*S        S*S     S*S    S%S  S*S  S*S.    S*S    S*S  S*S   .S*S  
-S*S    S*S   SSSbs   SSSbs   SSSbs   SSSbs_sdSSS         S*S     S*S    S&S  S*S   SSSbs  S*S    S*S  S*S_sdSSS   
-SSS    S*S    YSSP    YSSP    YSSP    YSSP~YSSY          S*S     S*S    SSS  S*S    YSSP  S*S    SSS  SSS~YSSY    
-       SP                                                SP      SP          SP           SP                      
-       Y                                                 Y       Y           Y            Y                       
-                                                                                                                  
+            _ _          __      _                _ 
+  /\  /\___| | | ___    / _|_ __(_) ___ _ __   __| |
+ / /_/ / _ \ | |/ _ \  | |_| '__| |/ _ \ '_ \ / _` |
+/ __  /  __/ | | (_) | |  _| |  | |  __/ | | | (_| |
+\/ /_/ \___|_|_|\___/  |_| |_|  |_|\___|_| |_|\__,_|
+                                                               
 
 <!-- [C1] 7f3a2b1e9d4c8f6a0e5b2d7c1a9f4e3b -->
 
