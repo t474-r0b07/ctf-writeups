@@ -1,7 +1,7 @@
 ```
 bash
 cat << 'BLOCK'
-![banner](../../assets/narnia0_banner.png)
+./assets/narnia0_banner.png
 ```
 `
 
