@@ -65,7 +65,7 @@ Después vuelve.
 
 <div align="center">
 
-![RECON](./assets/recon_terminal.png)
+![RECON](./assets/ariane5_failure.png)
 
 </div>
 
