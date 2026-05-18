@@ -97,7 +97,7 @@ Los cuatro que sobraron no desaparecieron.
 Se chorrearon sobre `val` y lo pisaron.
 
 Eso es todo.
-No es magia. Es que la memoria es lineal y el programador era descuidado.
+No es magia. Es que la memoria es lineal y sintetizo exactamente un descuido.
 
 ---
 
