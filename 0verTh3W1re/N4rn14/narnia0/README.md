@@ -1,10 +1,4 @@
-```
-bash
-cat << 'BLOCK'
-./assets/narnia0_banner.png
-```
-`
-
+![banner](assets/narnia0_banner.png)
 ```bash
 $ ssh narnia0@narnia.labs.overthewire.org -p 2226
 
