@@ -242,5 +242,10 @@ stack control achieved
 
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
 > *→ siguiente: [narnia2](../narnia2/)*
-
+---
+> **La superficie solo muestra lo que quieren que veas.**
+> Para descifrar el origen, tu viaje comienza en las profundidades del repositorio.
+> 
+> 🧭 **[Mapa del Tesoro](https://github.com/t474-r0b07/ctf-writeups/tree/main/lore)**
+---
 <!-- 0x45 0x47 0x47 // 3l v3ct0r 3st4b4 3n 3l 3nt0rn0. s13mpr3. -->
