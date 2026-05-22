@@ -1,4 +1,4 @@
-![banner](assets/narnia1_banner.png)
+![banner](assets/banner.jpg)
 
 ```bash
 $ ssh narnia1@narnia.labs.overthewire.org -p 2226
