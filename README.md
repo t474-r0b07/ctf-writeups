@@ -188,7 +188,13 @@ $ echo $LOGIC
 
 > *// l1v3 pr0c3ss · 3sp4ñ0l · m1st4k3s 1nclud3d*
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-
+---
+> 🔴 **ATENCIÓN: EL RASTRO SE DESVÍA**
+>
+> La superficie solo muestra lo que quieren que veas. Para descifrar el origen, tu viaje comienza en las profundidades del repositorio.
+> 
+> 🧭 **[ACCEDER AL MAPA DEL TESORO / ÍNDICE DEL LORE](https://github.com/t474-r0b07/ctf-writeups/tree/main/lore)**
+> ---
 <!--
   "You can't connect the dots looking forward;
    you can only connect them looking backwards."
