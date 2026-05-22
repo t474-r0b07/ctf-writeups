@@ -25,7 +25,7 @@ Y tardó días en destruir servidores en todo el mundo.
 ## `> cat que_paso.txt`
 
 Bash tiene una feature documentada:
-podés exportar funciones como variables de entorno.
+puedes exportar funciones como variables de entorno.
 
 ```bash
 export mifuncion='() { echo "ejecutado"; }'
@@ -93,7 +93,7 @@ Todos comprometidos.
 El vector: variables de entorno.
 El mismo vector de narnia1.
 
-La diferencia: en narnia1 vos controlás EGG en local.
+La diferencia: en narnia1 controlas EGG en local.
 En Shellshock, cualquier persona en internet
 controlaba las variables de entorno de tu servidor.
 
