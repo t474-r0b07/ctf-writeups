@@ -159,6 +159,7 @@ Lo demás es charla de café.
 ```
 
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
+> ---
 > *→ siguiente: [narnia1](../narnia1/)*
 > 
 > > 🔴 **ATENCIÓN: EL RASTRO SE DESVÍA**
@@ -166,5 +167,5 @@ Lo demás es charla de café.
 > La superficie solo muestra lo que quieren que veas. Para descifrar el origen, tu viaje comienza en las profundidades del repositorio.
 > 
 > 🧭 **[ACCEDER AL MAPA DEL TESORO / ÍNDICE DEL LORE](https://github.com/t474-r0b07/ctf-writeups/tree/main/lore)**
-
+---
 <!-- 0x4e 0x41 0x52 0x4e 0x49 0x41 // 3l 0r1g3n 3s 0tr0 l4d0 -->
