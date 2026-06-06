@@ -227,8 +227,11 @@ también puedes vaciarlo.
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia11](../narnia11/)*
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
+
+> *→ anterior: [narnia9](narnia09.md)**→ siguiente: [narnia11](narnia11.md)*
+
 
 > > 🔴 **UN NIVEL MÁS**
 >
