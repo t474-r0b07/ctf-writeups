@@ -231,7 +231,7 @@ La vulnerabilidad más difícil de parchear no está en el código. Está en lo 
 ```
 
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia4](../narnia4/)*
+> *→ siguiente: [narnia4](narnia4.md)*
 
 ---
 <!-- 0x6f 0x66 0x69 0x6c 0x65 // 3l d3st1n0 s3 r33scr1b3. -->
