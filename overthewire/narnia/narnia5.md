@@ -218,7 +218,8 @@ El detalle que nadie revisa es exactamente donde vive la vulnerabilidad.
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube_Channel](https://youtube.com/t474-r0b07)*
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+
 > *→ siguiente: [narnia6](narnia6.md)*
 
 ---
