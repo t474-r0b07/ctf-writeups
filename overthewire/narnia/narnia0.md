@@ -160,7 +160,7 @@ Lo demás es charla de café.
 
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
 > ---
-> *→ siguiente: [narnia1](/narnia1.md)*
+> *→ siguiente: [narnia1](narnia1.md)*
 > 
 > > 🔴 **ATENCIÓN: EL RASTRO SE DESVÍA**
 >
