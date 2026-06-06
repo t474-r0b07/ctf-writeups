@@ -219,8 +219,11 @@ porque parecía correcto.
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia9](../narnia9/)*
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
+
+> *→ anterior: [narnia7](narnia07.md)**→ siguiente: [narnia9](narnia09.md)*
+
 
 > > 🔴 **EL RASTRO CONTINÚA**
 >
