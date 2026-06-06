@@ -189,7 +189,7 @@ $ echo $LOGIC
 ---
 
 > *// l1v3 pr0c3ss · 3sp4ñ0l · m1st4k3s 1nclud3d*
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
+> *→ [youtube.com/@t474-r0b07](https://www.youtube.com/@KaderD.Garnica)*
 
 <!--
   "You can't connect the dots looking forward;
