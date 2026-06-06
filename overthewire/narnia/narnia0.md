@@ -158,7 +158,7 @@ Lo demás es charla de café.
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
+> *→ [youtube.com/@t474-r0b07]> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
 > ---
 > *→ siguiente: [narnia1](narnia1.md)*
 > 
