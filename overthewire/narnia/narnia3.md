@@ -145,7 +145,7 @@ La variable `ofile` que el programador trató como constante implícita.
 
 Mismo principio. Distinta escala.
 
-> *→ [`/lore/ken_thompson.md`](../lore/ken_thompson.md)*
+> *→ [`/lore/ken_thompson.md`](https://github.com/t474-r0b07/ctf-writeups/tree/main/lore/ken_thompson.md)*
 
 ---
 
