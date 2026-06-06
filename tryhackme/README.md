@@ -1,18 +1,11 @@
-<p align="center">
-  <img src="assets/banner_partidas.png" width="100%">
-</p>
-
-<div align="center">
-
-# P♜RTIDA♞
-
-> **this is not a flag collection**
->
-> **this is a collection of positions**
-
-</div>
-
----
+```
+████████╗██████╗ ██╗   ██╗██╗  ██╗ █████╗  ██████╗██╗  ██╗███╗   ███╗███████╗
+╚══██╔══╝██╔══██╗╚██╗ ██╔╝██║  ██║██╔══██╗██╔════╝██║ ██╔╝████╗ ████║██╔════╝
+   ██║   ██████╔╝ ╚████╔╝ ███████║███████║██║     █████╔╝ ██╔████╔██║█████╗
+   ██║   ██╔══██╗  ╚██╔╝  ██╔══██║██╔══██║██║     ██╔═██╗ ██║╚██╔╝██║██╔══╝
+   ██║   ██║  ██║   ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗
+   ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
+```
 
 ```bash
 $ whoami
@@ -20,122 +13,153 @@ $ whoami
 
 $ pwd
 > /writeups/tryhackme
+
+$ cat /etc/mission
+> 4qu1 n0 s3 c0l3cc10n4n fl4gs.
+> 4qu1 s3 4n4l1z4n p0s1c10n3s.
 ```
 
 ---
 
-## ♟ BOARD
+## `> cat identity.txt`
 
-| Piece | Meaning |
-|---------|---------|
-| ♟ | Observation |
-| ♞ | Pattern |
-| ♝ | Hypothesis |
-| ♜ | Attempt |
-| ♛ | Exposed King |
-| ♚ | Checkmate |
+```
+esto no es una colección de walkthroughs.
+esto no es un repositorio de tutoriales.
+esto no es una guía de comandos.
+```
+
+> TryHackMe tiene miles de writeups. Este repositorio también los tiene.
+> La diferencia no está en el contenido — está en el enfoque.
+> Cada máquina aquí se documenta como una partida. No porque el ajedrez
+> sea una metáfora elegante. Porque resulta útil.
+
+| cada servicio | es una pieza |
+|---|---|
+| cada decisión | modifica la posición |
+| cada error | deja algo sin defender |
 
 ---
 
-## ⚙️ RULES
+## `> cat rules.conf`
 
 ```ini
-flag != objective
+[game]
+flag          != objective
+root          != victory
+copy_paste     = false
+fast_answers   = suspicious
+reasoning      = required
 
-root != victory
-
-copy_paste = false
-
-reasoning = required
+[philosophy]
+; no se buscan vulnerabilidades — se analizan posiciones
+; no se busca root — se estudia cómo el sistema llegó a perder
 ```
 
 ---
 
-## ♞ METHODOLOGY
+## `> cat framework.txt`
 
-```text
-♟ OBSERVATION
-        │
-        ▼
-♞ PATTERN
-        │
-        ▼
-♝ HYPOTHESIS
-        │
-        ▼
-♜ ATTEMPT
-        │
-        ▼
-♛ EXPOSED KING
-        │
-        ▼
-♚ CHECKMATE
-```
-
----
-
-## 📂 PARTIDAS
-
-```text
-PARTIDA_001
-PARTIDA_002
-PARTIDA_003
-PARTIDA_004
-PARTIDA_005
-```
-
----
-
-## 📈 PROGRESS
-
-```text
-PARTIDA_001   ██████████ 100%
-PARTIDA_002   ███████░░░  70%
-PARTIDA_003   ███░░░░░░░  30%
-PARTIDA_004   ░░░░░░░░░░   0%
-PARTIDA_005   ░░░░░░░░░░   0%
-```
-
----
-
-## 📝 NOTES
+> El objetivo no es mostrar comandos. El objetivo es entender
+> por qué la posición ya estaba perdida.
 
 ```bash
-$ cat notes.log
-```
-
-```text
-flags are easy to archive.
-
-understanding takes longer.
+$ grep -r "what_matters" /sys/mindset/
+> the flag marks the end of the lab.
+> not the end of the investigation.
 ```
 
 ---
 
-<div align="center">
+## `> tree methodology/`
 
-♟
+```
+methodology/
+│
+├── ♟  APERTURA/       → ¿qué sabemos?
+├── ♞  SEÑAL/          → ¿qué sobresale?
+├── ♝  HIPÓTESIS/      → ¿qué creemos?
+├── ♝  PRUEBA/         → ¿cómo lo validamos?
+├── ♜  INICIATIVA/     → ¿qué ganamos?
+├── ♛  JAQUE/          → ¿qué cambió?
+├── ♚  JAQUE_MATE/     → ¿cómo termina?
+└── ♜  ANÁLISIS/       → ¿por qué era inevitable?
+```
 
-</div>
+> No todas las partidas recorren el mismo camino.
+> Pero casi todas pasan por alguno de esos directorios.
+> La estructura no es fija. Se adapta a la máquina.
+
+---
+
+## `> cat notation.txt`
+
+```
+♟  apertura         →  primer contacto con la máquina
+♞  pieza expuesta   →  enumeración · señales · anomalías
+♝  combinación      →  hipótesis · variantes · líneas de juego
+♜  iniciativa       →  acceso inicial · ruptura · ventaja material
+♛  rey expuesto     →  escalada · defensa colapsada
+♚  jaque mate       →  root. siempre jaque mate. no cambia.
+```
+
+> No todas las máquinas pierden igual.
+> No todas las partidas terminan por la misma razón.
+
+---
+
+## `> grep learning attempts.log`
+
+```bash
+[+] wrong hypotheses    → preserved
+[+] dead ends           → documented
+[+] failed attempts     → most useful data lives here
+[+] the moment it clicked → especially that one
+```
+
+> Las hipótesis equivocadas se conservan. Los callejones sin salida también.
+> El aprendizaje aparece justo antes de abandonar una idea.
+> No después del jaque mate.
+
+---
+
+## `> cat observation.log`
+
+```
+el rey raramente cae en el movimiento que importa.
+para cuando ves el jaque mate,
+la posición ya estaba perdida.
+```
+
+> El sistema no fue comprometido el día del ataque.
+> Fue comprometido el día en que alguien tomó una mala decisión
+> y pensó que nadie la iba a encontrar.
+
+---
+
+## `> tail -f progress.log`
+
+```bash
+ROOM                     STATUS           APERTURA
+───────────────────────  ───────────────  ─────────────────
+🕐  [PENDIENTE]          [░░░░░░░░░░]     próxima partida
+🕐  [PENDIENTE]          [░░░░░░░░░░]     -
+🕐  [PENDIENTE]          [░░░░░░░░░░]     -
+🕐  [PENDIENTE]          [░░░░░░░░░░]     -
+🕐  [PENDIENTE]          [░░░░░░░░░░]     -
+```
 
 ```bash
 $ cat first_move.txt
-```
-
-```text
-every room looks complicated.
-
-until you find the first move.
+> cada máquina parece complicada.
+> hasta que encuentras el primer movimiento.
 ```
 
 ---
 
-<details>
-<summary><b>♜ opening.dat</b></summary>
+## `> cat tablero.txt`
 
-<br>
-
-```text
+```
 r n b q k b n r
 p p p p p p p p
 . . . . . . . .
@@ -146,18 +170,45 @@ P P P P P P P P
 R N B Q K B N R
 ```
 
-```text
-all games start the same way.
+> todas las partidas empiezan igual.
+> raramente terminan igual.
 
-they rarely end the same way.
+---
+
+## `> cat /var/log/sys.log | tail -1`
+
+```
+[♟] 526f6f74206e6f20657320656c2066696e616c2064656c20726f6f742e
+    45732073696d706c656d656e746520656c20756c74696d6f206d6f76696d69656e746f2e
+```
+
+---
+
+<details>
+<summary><code>// s1 ll3g4st3 4qu1, 3st4b4s busc4nd0</code></summary>
+
+```bash
+$ cat /hidden/truth.txt
+
+> ♟ cada servicio habla.
+> ♞ algunos gritan.
+> ♝ pocos saben escuchar.
+> ♜ t474 escucha.
+> ♛ el rey ya sabe lo que viene.
+> ♚ jaque mate.
 ```
 
 </details>
 
 ---
 
-<div align="center">
+> *// l1v3 pr0c3ss · 3sp4ñ0l · 3rr0r3s 1nclU1d0s*
+> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
+> *→ [github.com/t474-r0b07/ctf-writeups](https://github.com/t474-r0b07/ctf-writeups)*
 
-`/writeups/tryhackme`
-
-</div>
+<!--
+  "It is not about predicting all the results,
+   but about devising a better strategy
+   than your opponent's."
+                              — Garry Kasparov
+-->
