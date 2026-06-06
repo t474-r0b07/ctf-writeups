@@ -128,7 +128,7 @@ y `/bin/sh` como argumento.
 
 El NOP sled que acabas de usar sería inútil en ese escenario.
 
-> *→ [`/lore/nergal.md`](../lore/nergal.md)*
+> *→ [`/lore/nergal.md`](https://github.com/t474-r0b07/ctf-writeups/tree/main/lore/nergal.md)*
 
 ---
 
