@@ -6,8 +6,7 @@
    ██║   ██║  ██║   ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗██║ ╚═╝ ██║███████╗
    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
 ```
-![banner](assets/README_banner.png)
-```
+
 ```bash
 $ whoami
 > t474_r0b07
@@ -39,6 +38,25 @@ esto no es una guía de comandos.
 |---|---|
 | cada decisión | modifica la posición |
 | cada error | deja algo sin defender |
+
+---
+
+## `> cat context.txt`
+
+```bash
+$ cat /etc/arrival
+> llegué a TryHackMe desde OverTheWire.
+> sé lo que es pelear una posición real.
+> sé lo que es cuando no hay posición que pelear.
+```
+
+> 21 salas. Top 25%. Un día. No por velocidad — porque la posición se leía sola. TryHackMe en estos niveles no desafía. Etiqueta. Los formularios ya traían los guiones, las respuestas casi visibles en los campos de texto. No lo digo como crítica al que empieza — es el camino correcto para aprender. Lo digo como contexto para entender esta serie. Estas partidas no son el registro de alguien descubriendo cómo funciona un sistema. Son el registro de alguien analizando por qué el sistema ya había perdido antes de que llegara.
+
+```bash
+$ cat /etc/verdict
+> el sistema no estaba defendido.
+> estaba etiquetado.
+```
 
 ---
 
@@ -124,6 +142,25 @@ methodology/
 
 ---
 
+## `> tail -f progress.log`
+
+```bash
+PARTIDA   ROOM                     STATUS           
+────────  ───────────────────────  ───────────────  
+001       RootMe                   ✅ [jaque mate]   
+002       Blue                     ✅ [jaque mate]   
+003       Vulnerability Capstone   ✅ [jaque mate]   
+004       Pickle Rick              ✅ [jaque mate]   
+005       Simple CTF               ✅ [jaque mate]   
+006       [PENDIENTE]              [░░░░░░░░░░]     
+007       [PENDIENTE]              [░░░░░░░░░░]     
+008       [PENDIENTE]              [░░░░░░░░░░]     
+009       [PENDIENTE]              [░░░░░░░░░░]     
+010       [PENDIENTE]              [░░░░░░░░░░]     
+```
+
+---
+
 ## `> cat observation.log`
 
 ```
@@ -135,26 +172,6 @@ la posición ya estaba perdida.
 > El sistema no fue comprometido el día del ataque.
 > Fue comprometido el día en que alguien tomó una mala decisión
 > y pensó que nadie la iba a encontrar.
-
----
-
-## `> tail -f progress.log`
-
-```bash
-ROOM                     STATUS           APERTURA
-───────────────────────  ───────────────  ─────────────────
-🕐  [PENDIENTE]          [░░░░░░░░░░]     próxima partida
-🕐  [PENDIENTE]          [░░░░░░░░░░]     -
-🕐  [PENDIENTE]          [░░░░░░░░░░]     -
-🕐  [PENDIENTE]          [░░░░░░░░░░]     -
-🕐  [PENDIENTE]          [░░░░░░░░░░]     -
-```
-
-```bash
-$ cat first_move.txt
-> cada máquina parece complicada.
-> hasta que encuentras el primer movimiento.
-```
 
 ---
 
