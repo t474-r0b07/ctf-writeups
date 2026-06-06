@@ -237,9 +237,11 @@ Es el más difícil de ver.
 █                                           █
 █████████████████████████████████████████████
 ```
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia10](../narnia10/)*
+> *→ anterior: [narnia8](narnia08.md)**→ siguiente: [narnia10](narnia10.md)*
+
 
 > > 🔴 **EL RASTRO CONTINÚA**
 >
