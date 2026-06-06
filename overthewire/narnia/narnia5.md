@@ -219,8 +219,9 @@ El detalle que nadie revisa es exactamente donde vive la vulnerabilidad.
 ```
 
 > *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
 
-> *→ siguiente: [narnia6](narnia6.md)*
+> *→ anterior: [narnia4](narnia4.md)**→ siguiente: [narnia6](narnia6.md)*
 
 ---
 <!-- 0x25 0x6e // 3l qu3 3scr1b3 3l f0rm4t0 3scr1b3 3l d3st1n0. -->
