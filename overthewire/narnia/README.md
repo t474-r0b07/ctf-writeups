@@ -7,7 +7,7 @@
  ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝ ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚══════╝
 ```
 
-![banner](assets/overthewire_banner.png)
+![banner](assets/overtherwire_banner.png)
 
 ```bash
 $ whoami
