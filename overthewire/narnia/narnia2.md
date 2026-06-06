@@ -216,8 +216,10 @@ La cadena de confianza no tiene fondo. El que no la ve es porque nunca la buscó
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia3](narnia3.md)*
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
+
+> *→ anterior: [narnia1](narnia1.md)**→ siguiente: [narnia3](narnia3.md)*
 
 ---
 <!-- 0x90 0x90 0x90 // 3l s1l3nc10 3s 3l c4m1n0. -->
