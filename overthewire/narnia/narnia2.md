@@ -138,7 +138,7 @@ Tu shellcode llegaría, pero la CPU se negaría a ejecutarla.
 
 El mismo año publicó cómo saltarse su propio parche.
 
-> *→ [`/lore/solar_designer.md`](../lore/solar_designer.md)*
+> *→ [`/lore/solar_designer.md`](https://github.com/t474-r0b07/ctf-writeups/tree/main/lore/solar_designer.md)*
 
 ---
 
