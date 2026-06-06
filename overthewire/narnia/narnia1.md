@@ -241,7 +241,7 @@ stack control achieved
 ```
 
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia2](../narnia2/)*
+> *→ siguiente: [narnia2](narnia2.md)*
 ---
 > 🔴 **ATENCIÓN: EL RASTRO SE DESVÍA**
 >
