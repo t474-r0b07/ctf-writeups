@@ -1,11 +1,18 @@
-```
-██████╗  █████╗ ██████╗ ████████╗██╗██████╗  █████╗ ███████╗
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║██╔══██╗██╔══██╗██╔════╝
-██████╔╝███████║██████╔╝   ██║   ██║██║  ██║███████║███████╗
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██║██║  ██║██╔══██║╚════██║
-██║     ██║  ██║██║  ██║   ██║   ██║██████╔╝██║  ██║███████║
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝╚═════╝ ╚═╝  ╚═╝╚══════╝
-```
+<p align="center">
+  <img src="assets/banner_partidas.png" width="100%">
+</p>
+
+<div align="center">
+
+# P♜RTIDA♞
+
+> **this is not a flag collection**
+>
+> **this is a collection of positions**
+
+</div>
+
+---
 
 ```bash
 $ whoami
@@ -17,47 +24,22 @@ $ pwd
 
 ---
 
-```bash
-$ cat objective.txt
-```
+## ♟ BOARD
 
-```text
-this is not a flag collection.
-
-this is a collection of positions.
-```
-
----
-
-## ♟ ¿Qué es esto?
-
-TryHackMe está lleno de writeups.
-
-Esta carpeta también contiene writeups.
-
-Pero las máquinas aquí no se documentan como objetivos.
-
-Se documentan como partidas.
-
-No porque el ajedrez sea una metáfora elegante.
-
-Porque resulta útil.
-
-Cada servicio es una pieza.
-
-Cada decisión modifica la posición.
-
-Cada error deja algo sin defender.
+| Piece | Meaning |
+|---------|---------|
+| ♟ | Observation |
+| ♞ | Pattern |
+| ♝ | Hypothesis |
+| ♜ | Attempt |
+| ♛ | Exposed King |
+| ♚ | Checkmate |
 
 ---
 
-```bash
-$ cat rules.conf
-```
+## ⚙️ RULES
 
 ```ini
-[game]
-
 flag != objective
 
 root != victory
@@ -69,35 +51,57 @@ reasoning = required
 
 ---
 
-## ♞ Metodología
-
-```bash
-$ tree methodology/
-```
+## ♞ METHODOLOGY
 
 ```text
-methodology/
-
-├── observation/
-├── patterns/
-├── hypothesis/
-├── attempts/
-├── mistakes/
-└── checkmate/
+♟ OBSERVATION
+        │
+        ▼
+♞ PATTERN
+        │
+        ▼
+♝ HYPOTHESIS
+        │
+        ▼
+♜ ATTEMPT
+        │
+        ▼
+♛ EXPOSED KING
+        │
+        ▼
+♚ CHECKMATE
 ```
-
-No siempre aparecen en ese orden.
-
-No todas las partidas recorren el mismo camino.
-
-Pero casi todas pasan por alguno de esos directorios.
 
 ---
 
-## ♝ Sobre las flags
+## 📂 PARTIDAS
+
+```text
+PARTIDA_001
+PARTIDA_002
+PARTIDA_003
+PARTIDA_004
+PARTIDA_005
+```
+
+---
+
+## 📈 PROGRESS
+
+```text
+PARTIDA_001   ██████████ 100%
+PARTIDA_002   ███████░░░  70%
+PARTIDA_003   ███░░░░░░░  30%
+PARTIDA_004   ░░░░░░░░░░   0%
+PARTIDA_005   ░░░░░░░░░░   0%
+```
+
+---
+
+## 📝 NOTES
 
 ```bash
-$ cat flag.txt
+$ cat notes.log
 ```
 
 ```text
@@ -106,87 +110,13 @@ flags are easy to archive.
 understanding takes longer.
 ```
 
-La flag suele marcar el final del laboratorio.
-
-No necesariamente el final de la investigación.
-
 ---
 
-## ♜ Sobre los errores
+<div align="center">
 
-```bash
-$ grep learning attempts.log
-```
+♟
 
-```text
-most useful data found in failed attempts
-```
-
-Las hipótesis equivocadas se conservan.
-
-Los callejones sin salida también.
-
-Porque muchas veces el aprendizaje aparece justo antes de abandonar una idea.
-
----
-
-## ♛ Notación
-
-```bash
-$ cat notation.txt
-```
-
-```text
-♟ opening
-
-♞ exposed piece
-
-♝ combination
-
-♜ initiative
-
-♛ exposed king
-
-♚ checkmate
-```
-
-No todas las máquinas pierden igual.
-
-No todas las partidas terminan por la misma razón.
-
----
-
-## ♚ Observación
-
-```bash
-$ cat observation.log
-```
-
-```text
-the king rarely falls
-on the move that matters.
-
-by the time you see checkmate,
-the position is usually gone.
-```
-
----
-
-## Estado actual
-
-```bash
-$ tail -f progress.log
-```
-
-```text
-🕐 PARTIDA_001    [░░░░░░░░░░]
-🕐 PARTIDA_002    [░░░░░░░░░░]
-🕐 PARTIDA_003    [░░░░░░░░░░]
-🕐 PARTIDA_004    [░░░░░░░░░░]
-🕐 PARTIDA_005    [░░░░░░░░░░]
-```
-
----
+</div>
 
 ```bash
 $ cat first_move.txt
@@ -201,7 +131,9 @@ until you find the first move.
 ---
 
 <details>
-<summary><code>$ cat .hidden/board.dat</code></summary>
+<summary><b>♜ opening.dat</b></summary>
+
+<br>
 
 ```text
 r n b q k b n r
@@ -224,12 +156,8 @@ they rarely end the same way.
 
 ---
 
-```bash
-$ exit
-```
+<div align="center">
 
-```text
-root was never the story.
+`/writeups/tryhackme`
 
-it was only the last move.
-```
+</div>
