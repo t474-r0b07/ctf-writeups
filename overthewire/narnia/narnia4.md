@@ -206,8 +206,10 @@ Convence al sistema de que se ataque a sí mismo.
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia5](narnia5.md)*
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
+
+> *→ anterior: [narnia3](narnia3.md)*→ siguiente: [narnia5](narnia5.md)*
 
 ---
 <!-- 0x72 0x65 0x74 // 3l r3t0rn0 3s s0l0 un4 d1r3cc10n. -->
