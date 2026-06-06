@@ -240,8 +240,11 @@ stack control achieved
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia2](narnia2.md)*
+> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+---
+
+> *→ anterior: [narnia0](narnia0.md)**→ siguiente: [narnia2](narnia2.md)*
+
 ---
 > 🔴 **ATENCIÓN: EL RASTRO SE DESVÍA**
 >
