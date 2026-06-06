@@ -218,7 +218,7 @@ El detalle que nadie revisa es exactamente donde vive la vulnerabilidad.
 █████████████████████████████████████████████
 ```
 
-> *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
+> *→ [youtube_Channel](https://youtube.com/t474-r0b07)*
 > *→ siguiente: [narnia6](narnia6.md)*
 
 ---
