@@ -131,7 +131,8 @@ En 1999, **ProFTPD** tenía exactamente este error en su función de logging.
 `syslog()` recibía el input del usuario como argumento de formato.
 Acceso root remoto. Sin tocar ningún buffer de tamaño fijo.
 
-> *→ [`/lore/proftp_2000.md`](../lore/proftp_2000.md)*
+> *→ [`/lore/proftp_2000.md`]
+(https://github.com/t474-r0b07/ctf-writeups/tree/main/lore/proftp_2000.md)*
 
 ---
 
