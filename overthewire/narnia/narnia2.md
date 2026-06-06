@@ -217,7 +217,7 @@ La cadena de confianza no tiene fondo. El que no la ve es porque nunca la buscó
 ```
 
 > *→ [youtube.com/@t474-r0b07](https://youtube.com/@t474-r0b07)*
-> *→ siguiente: [narnia3](../narnia3/)*
+> *→ siguiente: [narnia3](narnia3.md)*
 
 ---
 <!-- 0x90 0x90 0x90 // 3l s1l3nc10 3s 3l c4m1n0. -->
