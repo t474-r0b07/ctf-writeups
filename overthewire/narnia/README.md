@@ -86,7 +86,6 @@ SERIE         NIVELES    ESTADO         TERRITORIO
 B4nd1t/       [34/34]    ✅ completo    movimiento · orientación · terminal
 L3v14th4n/    [08/08]    ✅ completo    observación · SUID · señales
 N4rn14/       [12/12]    ✅ completo    stack · heap · entorno · memoria
-B3h3m0th/     [00/??]    🔴 pendiente   // territorio desconocido
 ```
 
 ---
@@ -164,7 +163,6 @@ Cada referencia tiene su entrada en la biblioteca.
 🟢  Bandit      [██████████] 34/34   completo
 🟢  Leviathan   [██████████] 08/08   completo
 🟢  Narnia      [██████████] 12/12   completo · stack · heap · entorno
-🔴  Behemoth    [░░░░░░░░░░] 00/??   // inicializando...
 ```
 
 ---
