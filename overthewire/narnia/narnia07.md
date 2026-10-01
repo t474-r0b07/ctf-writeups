@@ -284,10 +284,10 @@ A veces está en una tabla que nadie pensó en cerrar.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia6](narnia06.md)**→ siguiente: [narnia8](narnia08.md)*
+> *→ anterior: [narnia6](narnia06.md)· siguiente: [narnia8](narnia08.md)*
 
 > > 🔴 **EL RASTRO CONTINÚA**
 >
