@@ -158,7 +158,7 @@ Lo demás es charla de café.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 > ---
 > *→ siguiente: [narnia1](narnia01.md)*
 > 
