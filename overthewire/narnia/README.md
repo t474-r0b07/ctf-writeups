@@ -1,210 +1,114 @@
-```
- ██████╗ ██╗   ██╗███████╗██████╗ ████████╗██╗  ██╗███████╗██╗    ██╗██╗██████╗ ███████╗
-██╔═══██╗██║   ██║██╔════╝██╔══██╗╚══██╔══╝██║  ██║██╔════╝██║    ██║██║██╔══██╗██╔════╝
-██║   ██║██║   ██║█████╗  ██████╔╝   ██║   ███████║█████╗  ██║ █╗ ██║██║██████╔╝█████╗
-██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗   ██║   ██╔══██║██╔══╝  ██║███╗██║██║██╔══██╗██╔══╝
-╚██████╔╝ ╚████╔╝ ███████╗██║  ██║   ██║   ██║  ██║███████╗╚███╔███╔╝██║██║  ██║███████╗
- ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝ ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚══════╝
-```
+# Narnia
 
 ![banner](assets/overtherwire_banner.png)
 
-```bash
-$ whoami
-> t474_r0b07
+> OverTheWire / Narnia · 12 niveles completados
 
-$ pwd
-> /writeups/overthewire
+Narnia es la parte de OverTheWire donde la terminal deja de ser solamente una herramienta de navegación y empieza a convertirse en un laboratorio de memoria, ejecución y explotación.
 
-$ cat /etc/mission
-> 3st3 n0 3s 3l lug4r d0nd3 4pr3ndí qu3 3x1st14n l4s vuln3r4b1l1d4d3s.
-> 3s 3l lug4r d0nd3 3nt3ndí qu3 y0 p0dí4 3ncontr4rl4s.
-```
+La serie recorre vulnerabilidades y técnicas clásicas sobre binarios Linux: **stack overflows, variables de entorno, control de EIP/EBP, GOT, off-by-one, `execve`, corrupción de heap y function pointers**.
 
 ---
 
-## `> cat arrival.txt`
+## `> ls levels/`
 
-```bash
-$ ssh bandit0@bandit.labs.overthewire.org -p 2220
-```
-
-Esa línea cambió algo.
-
-No el comando. No el puerto. No el servidor.
-El hecho de que funcionó — y del otro lado había un problema
-que nadie iba a resolver por mí.
-
-Antes de esto había hecho TryHackMe.
-21 salas. Top 25%. Un día.
-No porque sea bueno — porque las respuestas casi venían escritas
-en los campos de texto.
-No hubo resistencia. No hubo fricción.
-No hubo nada que costara.
-
-OverTheWire fue diferente desde el primer prompt.
-La terminal no te guía. No te da pistas visuales.
-No hay botón de hint.
-Solo hay un servidor esperando
-que sepas qué preguntarle.
-
-Eso fue lo que me enganchó.
-
----
-
-## `> cat context.txt`
-
-```
-no vine aquí a aprender comandos.
-vine aquí porque algo no funcionó
-y tuve que entender por qué.
-
-  eso es diferente.
-```
-
-Bandit enseña a moverse.
-Leviathan enseña a observar.
-Narnia enseña a pensar diferente.
-
-No son niveles de dificultad.
-Son formas distintas de ver el mismo sistema.
-
-```bash
-$ echo $TURNING_POINT
-> narnia.
-> primer nivel que realmente costó.
-> primer nivel que valió la pena documentar.
-```
-
----
-
-## `> ls -la series/`
-
-```bash
-SERIE         NIVELES    ESTADO         TERRITORIO
-────────────  ─────────  ─────────────  ──────────────────────────────────
-B4nd1t/       [34/34]    ✅ completo    movimiento · orientación · terminal
-L3v14th4n/    [08/08]    ✅ completo    observación · SUID · señales
-N4rn14/       [12/12]    ✅ completo    stack · heap · entorno · memoria
-```
+| Nivel | Writeup | Estado |
+|---|---|---|
+| 00 | [narnia00](./narnia00.md) | ✅ completo |
+| 01 | [narnia01](./narnia01.md) | ✅ completo |
+| 02 | [narnia02](./narnia02.md) | ✅ completo |
+| 03 | [narnia03](./narnia03.md) | ✅ completo |
+| 04 | [narnia04](./narnia04.md) | ✅ completo |
+| 05 | [narnia05](./narnia05.md) | ✅ completo |
+| 06 | [narnia06](./narnia06.md) | ✅ completo |
+| 07 | [narnia07](./narnia07.md) | ✅ completo |
+| 08 | [narnia08](./narnia08.md) | ✅ completo |
+| 09 | [narnia09](./narnia09.md) | ✅ completo |
+| 10 | [narnia10](./narnia10.md) | ✅ completo |
+| 11 | [narnia11](./narnia11.md) | ✅ completo |
 
 ---
 
 ## `> cat methodology.txt`
 
-```diff
-+ cada nivel · mismo mapa · siempre:
+Cada nivel sigue el mismo mapa:
 
-  [RECON]       qué vi primero
-  [HYPOTHESIS]  qué creí que era
-  [ATTEMPTS]    qué intenté. qué falló. todo.
-  [BREAK]       el momento exacto en que algo hizo clic
-  [FLAG]        el resultado
-  [REFLECTION]  qué haría diferente
-
-- [ATTEMPTS] es donde vive el aprendizaje real.
-- no en la flag.
-- nunca en la flag.
+```text
+[RECON]       qué vi primero
+[HYPOTHESIS]  qué creí que estaba pasando
+[ATTEMPTS]    qué intenté y qué falló
+[BREAK]       el momento en que el modelo encajó
+[EXPLOIT]     cómo se convirtió la hipótesis en control
+[FLAG]        el resultado
+[REFLECTION]  qué aprendí y qué haría diferente
 ```
+
+Los errores forman parte del writeup. La flag no es el objetivo de la documentación; entender por qué funcionó, sí.
+
+---
+
+## `> cat terrain.txt`
+
+```text
+Narnia 00–01   → stack · variables · overflow
+Narnia 02–04   → EIP · shellcode · GOT · control de ejecución
+Narnia 05–06   → memoria · formatos · punteros
+Narnia 07–09   → GOT · entorno · off-by-one · EBP
+Narnia 10      → execve · envp · contexto de ejecución
+Narnia 11      → heap · function pointers · corrupción de objetos
+```
+
+Los detalles concretos están en cada writeup. Las direcciones y offsets que aparecen allí deben entenderse como valores dependientes del entorno de ejecución, no como constantes universales.
+
+---
+
+## `> cat lore.txt`
+
+Narnia está conectado con una biblioteca de referencias históricas y técnicas.
+
+- [Solar Designer](../../lore/solar_designer.md)
+- [Ken Thompson](../../lore/ken_thompson.md)
+- [Nergal](../../lore/nergal.md)
+- [ProFTP 2000](../../lore/proftp_2000.md)
+- [Nergal · Phrack 58](../../lore/nergal_phrack58.md)
+- [Stealth GOT](../../lore/stealth_got.md)
+- [Y2K](../../lore/y2k.md)
+- [Klog · Phrack 55](../../lore/klog_phrack55.md)
+- [execve / envp](../../lore/execve_envp.md)
+- [once upon a free()](../../lore/once_upon_free.md)
+
+→ [Índice completo del lore](../../lore/readme.md)
 
 ---
 
 ## `> cat rules.conf`
 
 ```ini
-[wargame]
-hints          = false
-walkthroughs   = false
-copy_paste     = false
-friction       = required
-
-[philosophy]
-; la terminal no te guía.
-; el servidor no te explica.
-; o entiendes lo que está pasando
-; o no pasa nada.
+[hasta donde llega el writeup]
+hints        = no
+walkthroughs = no
+copy_paste   = no
+friction     = required
 ```
 
----
-
-## `> cat lore.txt`
-
-```bash
-$ ls ../lore/
-```
-
-Cada writeup genera referencias.
-Cada referencia tiene su entrada en la biblioteca.
-
-```
-/lore/aleph_one.md          → el texto que lo formalizó todo
-/lore/gusano_morris.md      → el primer exploit masivo
-/lore/solar_designer.md     → el que cerró una ventana y abrió otra
-/lore/nergal.md             → Bugtraq 1998 · ret-into-libc
-/lore/nergal_phrack58.md    → Phrack 2001 · el blueprint de ROP
-/lore/ken_thompson.md       → Trusting Trust · 1984
-/lore/stealth_got.md        → GOT overwrite · el directorio abierto
-/lore/y2k.md                → el número que el mundo no entendió
-/lore/klog_phrack55.md      → un byte · todo el cimiento
-/lore/execve_envp.md        → el tercer argumento que nadie lee
-/lore/once_upon_free.md     → Phrack 57 · el heap tiene estructura
-```
-
-> El lore no es decoración.
-> Es el sustento técnico de cada decisión documentada.
-> Si algo aparece referenciado en un writeup,
-> su historia completa está ahí.
+La documentación muestra el razonamiento y los errores, no sustituye el proceso de análisis.
 
 ---
 
 ## `> tail -f progress.log`
 
-```
-🟢  Bandit      [██████████] 34/34   completo
-🟢  Leviathan   [██████████] 08/08   completo
-🟢  Narnia      [██████████] 12/12   completo · stack · heap · entorno
+```text
+🟢  Narnia      [██████████] 12/12   completo
 ```
 
 ---
 
-## `> cat /var/log/sys.log | tail -1`
-
-```
-[♟] 54 68 65 20 73 79 73 74 65 6d 20 77 61 73 20 6e
-    6f 74 20 62 72 6f 6b 65 6e 20 74 68 65 20 64 61
-    79 20 6f 66 20 74 68 65 20 61 74 74 61 63 6b 2e
-    20 49 74 20 77 61 73 20 62 72 6f 6b 65 6e 20 74
-    68 65 20 64 61 79 20 73 6f 6d 65 6f 6e 65 20 61
-    73 73 75 6d 65 64 20 69 74 20 77 61 73 20 73 61 66 65 2e
-```
-
----
-
-<details>
-<summary><code>// 1f y0u r34d th1s, y0u w3r3 4lr34dy l00k1ng</code></summary>
-
-```bash
-$ cat /hidden/origin.txt
-
-> bandit0.
-> un ssh. un puerto. un servidor del otro lado.
-> nadie te dijo qué preguntar.
-> tuviste que descubrirlo.
->
-> eso fue suficiente para no parar.
-```
-
-</details>
-
----
-
-> *// proceso activo · español · errores incluidos*
-> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
+> *// proceso activo · español · errores incluidos*  
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*  
 > *→ [github.com/t474-r0b07/ctf-writeups](https://github.com/t474-r0b07/ctf-writeups)*
 
 ---
 
-<!--
-  "El obstáculo es el camino."
-                — Marco Aurelio
--->
+> *← [OverTheWire](../README.md)*
+
+<!-- narnia · t474-r0b07 · stack · heap · entorno · memoria -->
