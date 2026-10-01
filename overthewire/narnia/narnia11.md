@@ -240,7 +240,7 @@ El tablero real acaba de empezar.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://youtube.com/@kaderd.garnica?si=9vk1E6Gkkb7LftTK)*
+> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
 ---
 
 > *→ anterior: [narnia0](narnia00.md)*
