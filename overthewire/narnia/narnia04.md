@@ -206,7 +206,7 @@ Convence al sistema de que se ataque a sí mismo.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
 > *→ anterior: [narnia3](narnia03.md)*→ siguiente: [narnia5](narnia05.md)*
