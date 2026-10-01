@@ -30,17 +30,17 @@ $ echo $REPO
 ## `> cat manifesto.txt`
 
 ```
-this is not a solution repo.
+esto no es un repositorio de soluciones.
 
-  the 2-hour rabbit holes.         ← those are in here.
-  the hypotheses that blew up.     ← those too.
-  the exact moment it clicked.     ← especially those.
+  los agujeros de conejo de 2 horas. ← esos están aquí.
+  las hipótesis que explotaron.      ← esas también.
+  el momento exacto en que hizo clic. ← especialmente esos.
 
-if you want copy-paste →  wrong repo.
+si buscas copiar y pegar →  repositorio equivocado.
 
-if something in your head says
-  you can go further —
-    keep reading.
+si algo en tu cabeza dice
+  puedes llegar más lejos —
+    sigue leyendo.
 ```
 
 ---
@@ -64,17 +64,17 @@ TryH4ckM3/
 ## `> cat methodology.txt`
 
 ```diff
-+ every writeup · same map · always:
++ cada writeup · mismo mapa · siempre:
 
-  [RECON]       what I saw first
-  [HYPOTHESIS]  what I thought it was
-  [ATTEMPTS]    what I tried. what failed. all of it.
-  [BREAK]       the exact moment it clicked
-  [FLAG]        the result
-  [REFLECTION]  what I'd do differently
+  [RECON]       qué vi primero
+  [HYPOTHESIS]  qué creí que era
+  [ATTEMPTS]    qué intenté. qué falló. todo.
+  [BREAK]       el momento exacto en que hizo clic
+  [FLAG]        el resultado
+  [REFLECTION]  qué haría diferente
 
-- [ATTEMPTS] is where the real learning lives.
-- not in the flag.
+- [ATTEMPTS] es donde vive el aprendizaje real.
+- no en la flag.
 - n3v3r 1n th3 fl4g.
 ```
 
@@ -101,10 +101,10 @@ TryH4ckM3/
 ## `> tail -f progress.log`
 
 ```
-🟢  OTW  Bandit      [██████████] done    ·  34 levels
-🟢  OTW  Leviathan   [██████████] done    ·  8 levels
-🟢  OTW  Narnia      [██████████] done    ·  12 levels · st4ck · h34p · 3nv
-🟢  TryHackMe        [██████████] done    ·  10 writeups live
+🟢  OTW  Bandit      [██████████] completo · 34 niveles
+🟢  OTW  Leviathan   [██████████] completo · 8 niveles
+🟢  OTW  Narnia      [██████████] completo · 12 niveles · st4ck · h34p · 3nv
+🟢  TryHackMe        [██████████] completo · 10 writeups publicados
 ```
 
 ---
@@ -112,16 +112,16 @@ TryH4ckM3/
 ## `> cat origin.txt`
 
 ```
-it all started with a book.
-a cipher. a shift of 3.
+todo empezó con un libro.
+un cifrado. un desplazamiento de 3.
 
     BNMSDMSN CD BNMNBDQRD
 
-that was the first lock I ever opened.
-I didn't know I'd spend the rest of my time
-  looking for more locks.
+ese fue el primer candado que abrí.
+no sabía que pasaría el resto de mi tiempo
+  buscando más candados.
 
-  this repo is what came after.
+  este repositorio es lo que vino después.
 ```
 
 ---
@@ -130,8 +130,8 @@ I didn't know I'd spend the rest of my time
 
 ```bash
 $ echo $MINDSET
-> the flag was never the point.
-> the point is knowing you could get it.
+> la flag nunca fue el objetivo.
+> el objetivo es saber que podías conseguirla.
 
 $ echo $LOGIC
 > m1 l0g1c 1s und3n14bl3.
@@ -168,9 +168,9 @@ $ echo $LOGIC
 ██║     ██║  ██║██║███████╗██║ ╚████║██████╔╝
 ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═══╝╚═════╝
 
-// y0u kn0w wh0 s41d th1s f1rst.
-// th3 0n3s wh0 s33 th1ngs d1ff3r3ntly
-// 4r3 th3 0n3s wh0 br34k th1ngs d1ff3r3ntly.
+// y4 s4b3s qu13n d1j0 3st0 pr1m3r0.
+// l0s qu3 v3n l4s c0s4s d1f3r3nt3
+// s0n l0s qu3 r0mp3n l4s c0s4s d3 0tr4 m4n3r4.
 ```
 
 </details>
