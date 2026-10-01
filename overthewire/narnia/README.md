@@ -81,12 +81,12 @@ $ echo $TURNING_POINT
 ## `> ls -la series/`
 
 ```bash
-SERIE         NIVELES    STATUS         TERRITORIO
+SERIE         NIVELES    ESTADO         TERRITORIO
 ────────────  ─────────  ─────────────  ──────────────────────────────────
 B4nd1t/       [34/34]    ✅ completo    movimiento · orientación · terminal
 L3v14th4n/    [08/08]    ✅ completo    observación · SUID · señales
 N4rn14/       [12/12]    ✅ completo    stack · heap · entorno · memoria
-B3h3m0th/     [00/??]    🔴 iniciando  // territorio desconocido
+B3h3m0th/     [00/??]    🔴 pendiente   // territorio desconocido
 ```
 
 ---
@@ -200,13 +200,13 @@ $ cat /hidden/origin.txt
 
 ---
 
-> *// l1v3 pr0c3ss · 3sp4ñ0l · 3rr0r3s 1nclU1d0s*
- *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *// proceso activo · español · errores incluidos*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 > *→ [github.com/t474-r0b07/ctf-writeups](https://github.com/t474-r0b07/ctf-writeups)*
 
 ---
 
 <!--
-  "The obstacle is the way."
-                — Marcus Aurelius
+  "El obstáculo es el camino."
+                — Marco Aurelio
 -->
