@@ -136,19 +136,19 @@ $ ls ../lore/
 Cada writeup genera referencias.
 Cada referencia tiene su entrada en la biblioteca.
 
-```
 [aleph_one](../lore/aleph_one.md)          → el texto que lo formalizó todo
 [gusano_morris](../lore/gusano_morris.md)      → el primer exploit masivo
-[solar_designer](../lore/solar_designer.md)     → el que cerró una ventana y abrió otra
-[nergal](../lore/nergal.md)             → Bugtraq 1998 · ret-into-libc
-[nergal_phrack58](../lore/nergal_phrack58.md)    → Phrack 2001 · el blueprint de ROP
-[ken_thompson](../lore/ken_thompson.md)       → Trusting Trust · 1984
-[stealth_got](../lore/stealth_got.md)        → GOT overwrite · el directorio abierto
-[y2k](../lore/y2k.md)                → el número que el mundo no entendió
+[solar_designer](../lore/solar_designer.md)    → el que cerró una ventana y abrió otra
+[nergal](../lore/nergal.md)                    → Bugtraq 1998 · ret-into-libc
+[nergal_phrack58](../lore/nergal_phrack58.md)  → Phrack 2001 · el blueprint de ROP
+[ken_thompson](../lore/ken_thompson.md)        → Trusting Trust · 1984
+[stealth_got](../lore/stealth_got.md)          → GOT overwrite · el directorio abierto
+[y2k](../lore/y2k.md)                          → el número que el mundo no entendió
 [klog_phrack55](../lore/klog_phrack55.md)      → un byte · todo el cimiento
-[execve_envp](../lore/execve_envp.md)        → el tercer argumento que nadie lee
-[once_upon_free](../lore/once_upon_free.md)     → Phrack 57 · el heap tiene estructura
-```
+[execve_envp](../lore/execve_envp.md)          → el tercer argumento que nadie lee
+[once_upon_free](../lore/once_upon_free.md)    → Phrack 57 · el heap tiene estructura
+
+
 
 > El lore no es decoración.
 > Es el sustento técnico de cada decisión documentada.
