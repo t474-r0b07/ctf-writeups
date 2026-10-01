@@ -53,17 +53,10 @@ PLATFORM              STATUS           NOTES
 0verTh3W1re/
   ├─ 🟢 B4nd1t/       ✅ [34/34]       d0ne. n0 l00k1ng b4ck.
   ├─ 🟢 L3v14th4n/    ✅ [08/08]       d0ne. s4me.
-  ├─ 🟢 N4rn14/       ✅ [12/12]       st4ck. h34p. 3ntr0n0. d0ne.
-  └─ 🔴 B3h3m0th/     [00/??]          // n3xt t3rr1t0ry. unkn0wn d3pth.
+  └─ 🟢 N4rn14/       ✅ [12/12]       st4ck. h34p. 3ntr0n0. d0ne.
 
-p1c0CTF/
-  ├─ 🔴 f0r3ns1cs     easy   [██████████] 100%
-  ├─ 🟡 f0r3ns1cs     medium [████████░░]  80%
-  └─ 🟠 f0r3ns1cs     hard   [██░░░░░░░░]  20%
-
-🔴 TryH4ckM3/         [██░░░░░░░░] active  ·  10 wr1t3ups l1v3
-🕐 H4ckTh3B0x/        [███░░░░░░░] active  ·  35% · blu3t34m
-❓ [R3D4CT3D]/         // ?????????          → github.com/t474-r0b07/t474
+TryH4ckM3/
+  └─ 🟢 10 partidas    ✅ [10/10]       RootMe → Overpass · en español
 ```
 
 ---
