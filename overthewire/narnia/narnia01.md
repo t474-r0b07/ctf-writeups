@@ -240,10 +240,10 @@ stack control achieved
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia0](narnia00.md)**→ siguiente: [narnia2](narnia02.md)*
+> *→ anterior: [narnia0](narnia00.md) · siguiente: [narnia2](narnia02.md)*
 
 ---
 > 🔴 **ATENCIÓN: EL RASTRO SE DESVÍA**
