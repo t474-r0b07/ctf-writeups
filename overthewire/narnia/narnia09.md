@@ -237,10 +237,10 @@ Es el más difícil de ver.
 █                                           █
 █████████████████████████████████████████████
 ```
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia8](narnia08.md)**→ siguiente: [narnia10](narnia10.md)*
+> *→ anterior: [narnia8](narnia08.md)· siguiente: [narnia10](narnia10.md)*
 
 
 > > 🔴 **EL RASTRO CONTINÚA**
