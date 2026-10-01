@@ -104,11 +104,7 @@ TryH4ckM3/
 🟢  OTW  Bandit      [██████████] done    ·  34 levels
 🟢  OTW  Leviathan   [██████████] done    ·  8 levels
 🟢  OTW  Narnia      [██████████] done    ·  12 levels · st4ck · h34p · 3nv
-🔴  OTW  Behemoth    [░░░░░░░░░░] 00/??   ·  // initializing...
-🔴  picoCTF          [████████░░] active  ·  forensics
-🔴  TryHackMe        [██░░░░░░░░] active  ·  10 writeups live
-🕐  HackTheBox       [███░░░░░░░] active  ·  35% · blueteam
-⚠️   CVE              [░░░░░░░░░░] endgame ←←←
+🟢  TryHackMe        [██████████] done    ·  10 writeups live
 ```
 
 ---
