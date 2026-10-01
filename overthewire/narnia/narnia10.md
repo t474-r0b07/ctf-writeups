@@ -227,10 +227,10 @@ también puedes vaciarlo.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia9](narnia09.md)**→ siguiente: [narnia11](narnia11.md)*
+> *→ anterior: [narnia9](narnia09.md)· siguiente: [narnia11](narnia11.md)*
 
 
 > > 🔴 **UN NIVEL MÁS**
