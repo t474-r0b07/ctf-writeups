@@ -219,7 +219,7 @@ La cadena de confianza no tiene fondo. El que no la ve es porque nunca la buscó
 > *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia1](narnia01.md)**→ siguiente: [narnia3](narnia03.md)*
+> *→ anterior: [narnia1](narnia01.md)· siguiente: [narnia3](narnia03.md)*
 
 ---
 <!-- 0x90 0x90 0x90 // 3l s1l3nc10 3s 3l c4m1n0. -->
