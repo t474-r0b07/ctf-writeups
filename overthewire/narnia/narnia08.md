@@ -219,10 +219,10 @@ porque parecía correcto.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia7](narnia07.md)**→ siguiente: [narnia9](narnia09.md)*
+> *→ anterior: [narnia7](narnia07.md)· siguiente: [narnia9](narnia09.md)*
 
 
 > > 🔴 **EL RASTRO CONTINÚA**
