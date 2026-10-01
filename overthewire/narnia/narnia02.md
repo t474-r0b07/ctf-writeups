@@ -216,7 +216,7 @@ La cadena de confianza no tiene fondo. El que no la ve es porque nunca la buscó
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
 > *→ anterior: [narnia1](narnia01.md)**→ siguiente: [narnia3](narnia03.md)*
