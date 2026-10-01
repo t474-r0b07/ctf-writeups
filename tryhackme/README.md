@@ -152,11 +152,11 @@ PARTIDA   ROOM                     STATUS
 003       Vulnerability Capstone   ✅ [jaque mate]   
 004       Pickle Rick              ✅ [jaque mate]   
 005       Simple CTF               ✅ [jaque mate]   
-006       [PENDIENTE]              [░░░░░░░░░░]     
-007       [PENDIENTE]              [░░░░░░░░░░]     
-008       [PENDIENTE]              [░░░░░░░░░░]     
-009       [PENDIENTE]              [░░░░░░░░░░]     
-010       [PENDIENTE]              [░░░░░░░░░░]     
+006       Bounty Hacker            ✅ [jaque mate]   
+007       Agent T                  ✅ [jaque mate]   
+008       The Marketplace          ✅ [jaque mate]   
+009       Ignite                   ✅ [jaque mate]   
+010       Overpass                 ✅ [jaque mate]     
 ```
 
 ---
