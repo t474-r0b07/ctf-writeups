@@ -245,10 +245,10 @@ El candado nunca fue suficiente.
 █████████████████████████████████████████████
 ```
 
-> *→[https://youtube.com/t474-r0b07](https://www.youtube.com/@Tata_Robot)*
+> *→ [youtube.com/@Tata_Robot](https://www.youtube.com/@Tata_Robot)*
 ---
 
-> *→ anterior: [narnia5](narnia05.md)**→ siguiente: [narnia7](narnia07.md)*
+> *→ anterior: [narnia5](narnia05.md)· siguiente: [narnia7](narnia07.md)*
 
 ---
 <!-- 0x72 0x65 0x74 0x32 0x6c 0x69 0x62 0x63 // 3l c0d1g0 qu3 n3c3s1t4s y4 3x1st3. -->
