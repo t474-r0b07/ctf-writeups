@@ -21,12 +21,4 @@ $ echo $ADVERTENCIA
 
 ---
 
-```bash
-$ echo $ADVERTENCIA
-> el que ejecuta sin entender
-> es el primero en caer.
-```
-
----
-
 <!-- lore · t474-r0b07 · el conocimiento no empieza en el tutorial. empieza antes. -->
